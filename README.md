@@ -12,7 +12,7 @@
 
 ## 🚀 Live Demo
 
-🔗 [stellar-auth-3d.vercel.app](https://your-link-here.vercel.app/)
+🔗 [stellar-auth.vercel.app](https://stellar-auth-bsfs6gq66-saktras-projects.vercel.app/)
 
 ---
 
