@@ -73,7 +73,7 @@ git clone [https://github.com/Saktra007/Stellar_Auth_3D.git](https://github.com/
 2. Navigate to the project folder
 
 ```bash
-cd task-manager
+cd Stellar_Auth
 ```
 
 3. Install dependencies
