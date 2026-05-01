@@ -1,9 +1,11 @@
-import { useState } from "react";
-import Background3D from "./components/visual/Background3D";
+import { lazy, useState } from "react";
 import { motion } from "framer-motion";
 import GlassCard from "./components/ui/GlassCard";
 import { LoginForm, RegisterForm, SidePanel } from "./components/auth";
 import { useMouseTilt } from "./hooks/useMouseTilt";
+
+const Background3D = lazy(() => import("./components/visual/Background3D"));
+
 const App = () => {
   const [isLogin, setIsLogin] = useState(true);
   const { rotateX, rotateY, mouseX, mouseY, onMouseMove, onMouseLeave } =
