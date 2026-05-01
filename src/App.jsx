@@ -1,4 +1,4 @@
-import { lazy, useState } from "react";
+import { lazy, Suspense, useState } from "react";
 import { motion } from "framer-motion";
 import GlassCard from "./components/ui/GlassCard";
 import { LoginForm, RegisterForm, SidePanel } from "./components/auth";
@@ -14,7 +14,9 @@ const App = () => {
   return (
     <div className="relative min-h-screen bg-[#020617] flex items-center justify-center p-4 md:p-6 overflow-x-hidden select-none">
       {/* 3D Background Layer */}
-      <Background3D />
+      <Suspense fallback={<div className="absolute inset-0 bg-[#020617]" />}>
+        <Background3D />
+      </Suspense>
 
       {/* Main Perspective Container */}
       <motion.div
