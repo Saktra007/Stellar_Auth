@@ -2,7 +2,7 @@
 
 ![React](https://img.shields.io/badge/React-18-blue)
 ![Three.js](https://img.shields.io/badge/Three.js-R3F-black)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.4-38B2AC)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4.2-38B2AC)
 ![Framer Motion](https://img.shields.io/badge/Framer_Motion-61DAFB)
 ![Vite](https://img.shields.io/badge/Build-Vite-646CFF)
 
